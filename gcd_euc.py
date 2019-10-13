@@ -1,4 +1,4 @@
-def nwd(a, b):
+def gcd(a, b):
     while b != 0:
         c = a % b
         a = b
@@ -6,7 +6,7 @@ def nwd(a, b):
     return a
 # a = int(input('Podaj a: '))
 # b = int(input('Podaj b: '))
-# nwd = nwd(a, b)
+# gcd = gcd(a, b)
 
 
-print(nwd(84, 18))
+print(gcd(84, 18))
