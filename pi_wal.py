@@ -7,10 +7,5 @@ def calculate_pi(n):
         print(output_text.format(i, pi))
 
 
-# try:
-#     n = int(input('Wybierz ilość przybliżeń: '))
-# except ValueError:
-#     print('Niepoprawna wartość')
-#     exit()
 n = 10
-calculate_pi(n) if n != 0 else print('Wartość nie może być zerem')
+calculate_pi(n)
